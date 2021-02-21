@@ -5,7 +5,7 @@ CREATE TABLE num(
   number_value INT NOT NULL
 );
 
-INSERT INTO billionaires (number_value) VALUES
+INSERT INTO num (number_value) VALUES
   (1),
   (2),
   (3),
