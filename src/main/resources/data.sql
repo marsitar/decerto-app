@@ -1,11 +1,11 @@
-DROP TABLE IF EXISTS num;
+DROP TABLE IF EXISTS num_record;
 
-CREATE TABLE num(
+CREATE TABLE num_record(
   id INT AUTO_INCREMENT  PRIMARY KEY,
   number_value INT NOT NULL
 );
 
-INSERT INTO num (number_value) VALUES
+INSERT INTO num_record (number_value) VALUES
   (1),
   (2),
   (3),

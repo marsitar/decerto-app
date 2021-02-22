@@ -1,4 +1,9 @@
 package com.sitarski.decertoapp.service.control;
 
-public interface DataOperation {
+import java.util.Collection;
+
+public interface DataOperation<T> {
+
+    T calculate(Collection<T> dataCollection);
+
 }
